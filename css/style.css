@@ -10,6 +10,10 @@
     width: 1000px;
     max-width: 100%;
 }
+img{
+    width: 100%;
+
+}
 /* product card*/
 .header > .container{
     background-color: orangered;
@@ -17,11 +21,12 @@
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    color: white;
 }
 
 .product > .container{
     display: flex;
-    gap: 20px;
+    gap: 50px 20px;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
@@ -33,5 +38,20 @@
     flex-shrink: 0;
     flex-basis: 30%;
     background-color: darkgray;
-    min-height: 300px;
+    min-height: 350px;
+    position: relative;
+}
+.product-card .card-label{
+    position: absolute;
+    bottom:130px;
+    left: 0px;
+}
+.product-card .card-label.card-ecology{
+    left:40px;
+}
+.card-discount{
+    background-color:red ;
+}
+.card-ecology{
+    background-color: green;
 }
