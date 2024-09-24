@@ -12,6 +12,7 @@
 }
 img {
   width: 100%;
+  display: block;
   
 }
 /* product card*/
@@ -26,7 +27,7 @@ body{
   padding: 10px;
   color: white;
 }
-
+/*main*/
 .product > .container {
   display: flex;
   gap: 50px 20px;
@@ -36,12 +37,12 @@ body{
   margin-top: 40px;
 }
 
-.product-card {
+.product .product-card {
   flex-grow: 1;
   flex-shrink: 0;
   flex-basis: 30%;
   background-color: darkgray;
-  min-height: 350px;
+  min-height: 300px;
   position: relative;
 }
 .product-card .card-label {
@@ -87,6 +88,9 @@ body{
     font-weight: 200;
 }
 /*img*/
+.card-img{
+
+}
 .product-card .second-img{
     display: none;
 }
