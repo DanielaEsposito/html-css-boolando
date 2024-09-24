@@ -41,7 +41,6 @@ body{
   flex-grow: 1;
   flex-shrink: 0;
   flex-basis: 30%;
-  background-color: darkgray;
   min-height: 300px;
   position: relative;
 }
@@ -99,4 +98,7 @@ body{
 }
 .product-card:hover .first-img{
     display: none;
+}
+.prefer:hover .heart{
+    color: red;
 }
