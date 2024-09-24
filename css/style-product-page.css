@@ -1,0 +1,120 @@
+/* reset*/
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  .container {
+    margin: 0px auto;
+    padding: 0px 10px;
+    width: 1000px;
+    max-width: 100%;
+  }
+  img {
+    width: 100%;
+
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  /*header*/
+  .header > .container {
+    background-color: orangered;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    align-items: center;
+  }
+  .logo {
+    width: 200px;
+    height: 50px;
+  }
+  
+  .ul-header {
+    list-style: none;
+  }
+  li > a {
+    text-decoration: none;
+    color: white;
+  }
+  li.nav-items {
+    display: inline;
+    padding: 5px;
+    font-size: 1.3rem;
+  }
+  
+.content .container{
+    padding: 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    min-height: 800px;
+    
+
+}
+.card{
+    background-color: rgba(0, 0, 0, 0.459);
+    border-radius: 20px;
+    padding: 30px;
+}
+.image{
+    width: 360px;
+    height: 500px;
+    padding: 10px;
+    border-radius: 20px
+    ;
+    
+}
+.image:hover{
+    -webkit-transform:scale(1.1);
+}
+.card-description{
+    padding-top: 20px;
+    align-content: center;
+    text-align: center;
+}
+.brand {
+    font-size: 1rem;
+  }
+  .product-title {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 1.5rem;
+  }
+  .price {
+    color: red;
+    font-weight: bold;
+  }
+  .price .last-price {
+    text-decoration: line-through;
+    color: black;
+    font-weight: 200;
+  }
+  .buy
+  /*footer*/
+.page-footer .container {
+    background-color: rgb(22, 22, 22);
+    width: 100%;
+    display: flex;
+    justify-content: space-betweenadd;
+    padding: 30px;
+    color: white;
+    align-items: center;
+  }
+  li.footer-items {
+    display: inline;
+    padding: 5px;
+    font-size: 0.7rem;
+  }
+  
+  .name-shoop{
+      font-size: 0.9rem;
+      padding: 5px;
+  }
+  li.footer-items > i{
+      font-size: 1rem;
+  }
