@@ -54,7 +54,8 @@ li.nav-items {
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .product .product-card {
@@ -73,6 +74,9 @@ li.nav-items {
 .product-card .card-label.card-ecology {
   left: 40px;
 }
+.card-label.card-ecology.single {
+  left: 0px;
+}
 .card-discount {
   background-color: red;
 }
@@ -89,12 +93,16 @@ li.nav-items {
   text-align: center;
   align-items: center;
   font-size: 2rem;
+  border-radius: 20px;
 }
-h2 > a{
+img {
+  border-radius: 20px;
+}
+h2 > a {
   text-decoration: none;
   color: black;
 }
-h2 > a:hover{
+h2 > a:hover {
   text-decoration: underline;
 }
 
@@ -113,6 +121,9 @@ h2 > a:hover{
   text-decoration: line-through;
   color: black;
   font-weight: 200;
+}
+.heart {
+  padding-right: 1px;
 }
 /*img*/
 .card-img {
@@ -145,10 +156,10 @@ li.footer-items {
   font-size: 0.7rem;
 }
 
-.name-shoop{
-    font-size: 0.9rem;
-    padding: 5px;
+.name-shoop {
+  font-size: 0.9rem;
+  padding: 5px;
 }
-li.footer-items > i{
-    font-size: 1rem;
+li.footer-items > i {
+  font-size: 1rem;
 }
