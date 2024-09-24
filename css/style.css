@@ -11,7 +11,13 @@
     max-width: 100%;
 }
 /* product card*/
-
+.header > .container{
+    background-color: orangered;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
 
 .product > .container{
     display: flex;
@@ -19,6 +25,7 @@
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
+    margin-top: 40px;
 }
 
 .product-card{
