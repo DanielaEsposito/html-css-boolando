@@ -90,6 +90,14 @@ li.nav-items {
   align-items: center;
   font-size: 2rem;
 }
+h2 > a{
+  text-decoration: none;
+  color: black;
+}
+h2 > a:hover{
+  text-decoration: underline;
+}
+
 .brand {
   font-size: 0.8rem;
 }

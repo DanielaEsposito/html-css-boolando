@@ -73,7 +73,7 @@
     -webkit-transform:scale(1.1);
 }
 .card-description{
-    padding-top: 20px;
+    padding: 20px 0px;
     align-content: center;
     text-align: center;
 }
@@ -94,7 +94,17 @@
     color: black;
     font-weight: 200;
   }
-  .buy
+  .buy{
+    background-color:orangered;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    border: 0px;
+    margin-top: 20px; 
+  }
+  .buy:hover{
+    -webkit-transform:scale(1.1);
+  }
   /*footer*/
 .page-footer .container {
     background-color: rgb(22, 22, 22);
