@@ -22,6 +22,9 @@
     background-color: orangered;
     width: 100%;
     display: flex;
+    position: fixed;
+    top: 0%;
+    z-index: 4;
     justify-content: space-between;
     padding: 10px;
     color: white;
@@ -59,7 +62,7 @@
   }
   /*content*/
 .content .container{
-    padding: 20px 0px;
+    padding: 120px 0px;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
